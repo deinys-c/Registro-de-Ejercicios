@@ -1,19 +1,24 @@
 # Registro de Ejercicios
 
-App de terminal para registrar ejercicios diarios, ver historial y calcular el total semanal.
+Aplicación de terminal para registrar ejercicios diarios, ver historial ordenado por fecha y calcular totales semanales. Incluye persistencia en JSON y validaciones de formato de fecha.
 
 ## Funcionalidades
-- Añadir ejercicios con tipo, duración y fecha
-- Ver historial ordenado por fecha
-- Calcular total de minutos de la última semana
-- Persistencia automática con JSON
+- Añadir ejercicios con tipo, duración y fecha.
+- Ver historial ordenado por fecha (más reciente primero).
+- Calcular total de minutos de la última semana.
+- Persistencia automática en archivo JSON.
+- Validaciones de formato de fecha y duración.
 
-## Cómo usar
-1. Clona el repositorio
-2. Ejecuta `python registro_de_ejercicios.py`
+## Tecnologías
+- Python 3
+- JSON para almacenamiento
+- Módulo `datetime` para manejo de fechas
 
 ## Lo que aprendí
-- Validación de fechas con datetime
-- Ordenamiento con sorted y lambda
-- Persistencia con JSON
-- Consumo de API de clima (verificaciones)
+- Uso de `datetime.strptime` para validar y convertir fechas.
+- Ordenamiento de listas con `sorted()` y `lambda`.
+- Cálculo de períodos con `timedelta`.
+- Separación de lógica de negocio y presentación.
+
+## Estado
+Proyecto completado. Posteriormente evolucionó a una versión web (NEON PULSE).
