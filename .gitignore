@@ -1,0 +1,19 @@
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos de entorno virtual
+venv/
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de editores
+.vscode/
+.idea/
+
+# Archivos JSON que no sean el de clientes (si tuvieras backups)
+*.backup.json
